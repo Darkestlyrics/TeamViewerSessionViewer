@@ -2,7 +2,9 @@
 using TeamViewer_Session_Reader.Classes;
 
 namespace TeamViewer_Session_Reader.Helpers {
+
     static class ConversionHelper {
+
         /// <summary>
         /// Converts a string to a Session
         /// </summary>
@@ -15,6 +17,7 @@ namespace TeamViewer_Session_Reader.Helpers {
                 throw new Exception("Error encountered during Conversion", ex);
             }
         }
+
         private static Session stringToSession(string s) {
             string temp = s;
             temp = temp.Replace("             ", ",");

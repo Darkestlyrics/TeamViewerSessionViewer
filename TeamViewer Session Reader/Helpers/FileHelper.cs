@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace TeamViewer_Session_Reader.Helpers {
     static class FileHelper {
+
         /// <summary>
         /// Opens the file when the file is not locked and reads all lines
         /// </summary>
@@ -12,6 +13,7 @@ namespace TeamViewer_Session_Reader.Helpers {
         public static string[] ReadWhenPossible(string path) {
             return readWhenPossible(path);
         }
+
         private static string[] readWhenPossible(string p) {
             bool f = false;
             string[] s = null;
@@ -24,8 +26,9 @@ namespace TeamViewer_Session_Reader.Helpers {
                 }
             return s;
         }
+
         /// <summary>
-        /// Search for all files based on passed criteria
+        /// Search for all files based on file name
         /// </summary>
         /// <param name="filter">The search string to match against the names of files in path. Supports Wildcards </param>
         /// <param name="path">The relative or absolute path to the directory to search. This string is not case-sensitive.</param>
@@ -34,8 +37,9 @@ namespace TeamViewer_Session_Reader.Helpers {
             return Directory.EnumerateFiles(path, filter, SearchOption.AllDirectories).ToList();
 
         }
+
         /// <summary>
-        /// 
+        /// Search for all files based on file name and contents
         /// </summary>
         /// <param name="searchtext">Text to search for in matched files </param>
         /// <param name="filter">The search string to match against the names of files in path. Supports Wildcards </param>
