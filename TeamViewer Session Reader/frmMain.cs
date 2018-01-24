@@ -84,5 +84,12 @@ namespace TeamViewer_Session_Reader {
             else
                 MessageBox.Show("File not found");
         }
+
+        private void btnRescan_Click(object sender, EventArgs e) {
+             Scan();
+            if (!string.IsNullOrEmpty(path)) {
+                Process();
+            }
+        }
     }
 }
