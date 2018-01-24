@@ -27,3 +27,12 @@ G:\Milk-Public\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamV
 G:\Milk-Public\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.exe
 G:\Milk-Public\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.pdb
 G:\Milk-Public\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer_Session_Reader.frmMain.resources
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\bin\Debug\TeamViewer Session Reader.exe.config
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.exe
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.pdb
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\bin\Debug\TeamViewer Session Reader.exe
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\bin\Debug\TeamViewer Session Reader.pdb
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.csprojResolveAssemblyReference.cache
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer_Session_Reader.frmMain.resources
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer_Session_Reader.Properties.Resources.resources
+C:\Users\CGreen\Documents\Milk\TeamViewerSessionViewer\TeamViewer Session Reader\obj\Debug\TeamViewer Session Reader.csproj.GenerateResource.Cache

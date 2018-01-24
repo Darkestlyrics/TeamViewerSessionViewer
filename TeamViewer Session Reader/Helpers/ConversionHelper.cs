@@ -28,7 +28,7 @@ namespace TeamViewer_Session_Reader.Helpers {
                 SessionOpen = DateTime.ParseExact(values[1], "dd-MM-yyyy HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture),
                 SessionClose = DateTime.ParseExact(values[2], "dd-MM-yyyy HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture),
                 UserName = values[3],
-                ConnectionID = values[6]
+                ConnectionID = values[5]
             };
             return res;
         }
